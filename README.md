@@ -203,6 +203,48 @@ npm start
 - **Method**: `DELETE`
 - **URL**: `/todos/:id`
 
+### Todo Logs
+
+#### 1. Get All Todo Logs
+
+- **Method**: `GET`
+- **URL**: `/todo-logs`
+
+#### 2. Get Todo Log by ID
+
+- **Method**: `GET`
+- **URL**: `/todo-logs/:id`
+
+#### 3. Create Todo Log
+
+- **Method**: `POST`
+- **URL**: `/todo-logs`
+- **Request Body**:
+
+  ```json
+  {
+      "todo_id": 1,
+      "action": "Updated"
+  }
+  ```
+
+#### 4. Delete Todo Log
+
+- **Method**: `DELETE`
+- **URL**: `/todo-logs/:id`
+
+### Todo Details
+
+#### 1. Get All Todo Details
+
+- **Method**: `GET`
+- **URL**: `/todo-details`
+
+#### 2. Get Todo Detail by ID
+
+- **Method**: `GET`
+- **URL**: `/todo-details/:id`
+
 ### Categories
 
 #### 1. Get All Categories
@@ -261,3 +303,15 @@ Feel free to contribute to this project by creating issues or pull requests.
 For any questions or issues, please contact [manthan.ank46@gmail.com](mailto:manthan.ank46@gmail.com).
 
 Replace placeholders like `your-username`, `your_user`, `your_password`, and `your_database` with your actual values. Adjust the email address and any other project-specific details as necessary.
+
+### Postman Documentation
+
+- [Postman Documentation](https://documenter.getpostman.com/view/16684062/2sA3s6Ep9v)
+
+### Test the APIs
+
+You can test the APIs using Postman or any other API testing tool.
+
+## Conclusion
+
+That's it! You have successfully set up a CRUD Node.js application with MySQL. You can now use this project as a starting point for building your own Node.js applications with MySQL.
